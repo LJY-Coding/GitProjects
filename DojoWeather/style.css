@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+#heading {
+    background-color: rgb(143, 178, 243);
+    color: white;
+    padding: 10px 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav {
+    display: flex;
+    gap: 20px;
+}
+
+    #nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+#main {
+    padding: 10px 25%;
+}
+
+#city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#temperature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.days {
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+    padding: 20px;
+}
+
+    .days h3 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+.high-temp {
+    color: rgb(208, 85, 85);
+}
+
+.low-temp {
+    color: rgb(111, 111, 224);
+}
+
+.weather-icon {
+    border-radius: 50%;
+    width: 100px;
+}
+
+#popup {
+    background-color: rgba(211, 211, 211, 0.404);
+    margin: 0px 25%;
+    padding: 10px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+    #popup button {
+        background-color: rgba(23, 136, 249, 0.575);
+        box-shadow: 2px 2px black;
+    }
