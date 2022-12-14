@@ -1,5 +1,3 @@
 # Hello World!
 
-This is my first git project!
-
-Github
+This repository contains all my recent Coding Dojo projects.
